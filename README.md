@@ -28,6 +28,8 @@ The notebook includes:
 * Training of the Models: Deep-Q Network (DQN) and the Action-2-Critic (A2C)
 * A function to evaluate and compile the results of the model. The results include the mean value, standard deviation and suggestions for the user.
 
+The trained models are made available: [Mental_Health_A2C_model](https://github.com/kondaveetitejaswi/Reinforcement-Learning-for-Personalized-Digital-Well-Being/blob/main/mental_health_a2c_model.zip) and [Mental_Health_DQN_Score](https://github.com/kondaveetitejaswi/Reinforcement-Learning-for-Personalized-Digital-Well-Being/blob/main/mental_health_dqn_model.zip).
+
 ## Discussion
 The result suggestions are the primary suggestions given by the model for the user based on their current state. The performance can be clearly analysed by analysing the suggestions: The DQN model suggests a similar action to most of the users, while the A2C uses a wider range of action suggestions for the user. This clarifies that the A2C model is better suited for this scenario for the suggestion purpose. The reason for this better performance by the A2C model could be because of the model's ability to handle long-term decision-making, which could be advantageous while focusing on the actions that lead to consistent improvements rather than short-term rewards.
 
